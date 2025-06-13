@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SkillCraft Landing Page</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    header {
+      background-color: #00796b;
+      padding: 20px 0;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 1000;
+    }
+    .container {
+      width: 90%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      color: #fff;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 16px;
+    }
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      background: linear-gradient(135deg, #00bcd4, #009688);
+      color: white;
+      text-align: center;
+      padding: 150px 20px 100px;
+    }
+    .hero h1 {
+      font-size: 42px;
+    }
+    .hero p {
+      font-size: 18px;
+    }
+    .btn {
+      padding: 10px 20px;
+      margin-top: 15px;
+      background-color: white;
+      color: #00796b;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    section {
+      padding: 100px 20px;
+      text-align: center;
+    }
+    #home {
+      background-color: #e0f7fa;
+    }
+    #about {
+      background-color: #f1f8e9;
+    }
+    #projects {
+      background-color: #fff3e0;
+    }
+    #contact {
+      background-color: #fce4ec;
+    }
+    section h2 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+    section p {
+      max-width: 700px;
+      margin: 0 auto;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header id="navbar">
+    <div class="container">
+      <div class="logo">SkillCraftTechnology</div>
+      <nav>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Welcome to SkillCraft Technology</h1>
+      <p>Build amazing projects, grow your skills, and create your future.</p>
+      <a href="#projects" class="btn">Get Started</a>
+    </div>
+  </section>
+
+  <!-- Home Section -->
+  <section id="home">
+    <h2>What is SkillCraft?</h2>
+    <p>
+      SkillCraft is a platform that provides learning and development through real-time 
+      projects and interactive content to help learners excel in the tech industry.
+    </p>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      We are passionate educators and developers on a mission to enable everyone to 
+      gain hands-on experience through guided mentorship, practical labs, and curated tutorials.
+    </p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Our Projects</h2>
+    <p>
+      From website design to AI applications, explore a range of exciting projects 
+      designed by learners like you. Join us and build something awesome today!
+    </p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>
+      Have questions or want to collaborate? Reach out at: <br><br>
+      📧 <strong>info@skillcraft.com</strong><br>
+      📞 <strong>+91 98765 43210</strong>
+    </p>
+  </section>
+
+</body>
+</html>
